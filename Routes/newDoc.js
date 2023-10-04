@@ -3,7 +3,7 @@ const router = express.Router();
 // const Admin = require("../models/CreateAdmin");
 const mongoose = require("mongoose");
 require("../db/conn");
-
+//new doc code
 router.get("/", (req, res, next) => {
   res.status(200).json({
     message: "this is create message api get",
