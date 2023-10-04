@@ -4,6 +4,7 @@ const router = express.Router();
 const mongoose = require("mongoose");
 require("../db/conn");
 //new doc code
+//last updated till randomize allotting algorithm
 router.get("/", (req, res, next) => {
   res.status(200).json({
     message: "this is create message api get",
